@@ -1,5 +1,8 @@
 :root {
 	--primary-color: #047aed;
+	--secondary-color: #1c3fa8;
+	--dark-color: #002240;
+	--light-color: #f4f4f4;
 }
 
 * {
@@ -158,4 +161,9 @@ img {
 .cli .grid > *:first-child {
 	grid-column: 1 / span 2;
 	grid-row: 1 / span 2;
+}
+
+/* Cloud */
+.cloud .grid {
+	grid-template-columns: repeat(2, 1fr);
 }
