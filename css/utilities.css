@@ -1,4 +1,14 @@
 /* Utilities */
+.credits {
+	font-size: 1rem;
+}
+
+.credits a {
+	margin: 0;
+	padding: 0;
+	font-size: 0.8rem;
+}
+
 .container {
 	max-width: 1100px;
 	margin: 0 auto;
@@ -58,6 +68,17 @@
 .btn-light {
 	background-color: var(--light-color);
 	color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a,
+.bg-light a,
+.btn-light a {
+	color: #fff;
 }
 
 /* Text Sizes */
