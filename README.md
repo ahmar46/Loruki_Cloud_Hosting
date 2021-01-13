@@ -12,6 +12,6 @@
 
 ### CSS Grids
 
-### CSS Ani
+### CSS Animation
 
 ### Media Queries etc....
